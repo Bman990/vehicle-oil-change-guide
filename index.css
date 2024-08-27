@@ -1,0 +1,87 @@
+/* General Reset and Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+h2 {
+    background-color: #ddd;
+    padding: 0.5em;
+    border-left: 5px solid #007bff;
+    margin-top: 1em;
+}
+
+/* Container Styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Text and Paragraph Styling */
+p {
+    margin: 0.5em 0;
+    padding: 0 0.5em;
+    color: #555;
+}
+
+/* Div Styling for Sections */
+div {
+    margin-bottom: 2em;
+}
+
+/* Specific Styling for Divs */
+div > h2 {
+    font-size: 1.2em;
+}
+
+div > img {
+    border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 0.5em;
+    }
+}
+
+/* Style for the video wrapper to center the video */
+.video-section {
+    text-align: center; /* Centers the video section text */
+    margin: 20px 0; /* Adds some space above and below the video section */
+}
+
+.video-wrapper {
+    display: inline-block; /* Allows centering the iframe */
+}
+
+iframe {
+    max-width: 100%; /* Ensures the video is responsive and fits within the container */
+    height: auto; /* Maintains the aspect ratio */
+}
